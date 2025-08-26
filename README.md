@@ -1,4 +1,4 @@
-Both Frontend and Backend requires env file
+##Both Frontend and Backend requires env file
 
 backend env format
 MONGO_URI=mongodb+srv://YOUR-MONGO-URI/ExpenseApp
