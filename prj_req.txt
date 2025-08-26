@@ -1,0 +1,55 @@
+Backend (Node.js + Express + MongoDB)
+Features:
+1. User Authentication
+•	Register / Login using JWT
+•	Hash passwords using bcrypt
+•	Auth middleware to protect routes
+2. Expense Management
+•	Add a transaction: (title, amount, type: income/expense, category, date)
+•	Get all transactions (user-specific)
+•	Update a transaction
+•	Delete a transaction
+•	Filter by date range or category.
+
+
+
+Frontend (React + Tailwind + Axios)
+Pages:
+1.	Register / Login
+2.	Dashboard
+o	Show balance summary (total income, total expense)
+o	Bar chart or pie chart visualization
+3.	Transactions Page
+o	List of transactions
+o	Filter/search by category/date
+o	Buttons to edit/delete a transaction
+4.	Add Transaction Page
+o	Form with title, amount, type, category, date
+ Components:
+•	TransactionForm
+•	TransactionList
+•	ChartComponent (Pie/Bar)
+•	FilterBar (category/date range)
+•	Navbar
+______________
+ Charts:
+Use Chart.js or Recharts to show:
+•	Expense vs Income
+•	Category-wise breakdown (Pie Chart)
+•	Monthly spend trend (Bar Chart)
+
+
+
+
+
+
+usrname:test
+email:test@mail.com
+password:pass123
+
+usrname:newtest
+email:newtest@mail.com
+password:newtest123
+
+
+
